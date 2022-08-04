@@ -1,0 +1,38 @@
+$color-primario: #E4C1F9;
+$texto-fuente: 1,5rem;
+
+
+@import "variables";
+
+header {
+    background-color: rgb(220, 190, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    h1 {
+        color: aliceblue;
+    }
+    
+    nav {
+        background-color: cornflowerblue;
+        
+        li {
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                color: crimson;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: $texto-fuente;
+
+                &:hover {
+                    background-color: chartreuse;
+                }
+
+            }
+        }
+    }
+
+}

@@ -1,0 +1,19 @@
+header {
+  background-color: #dcbeeb;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  header h1 {
+    color: aliceblue; }
+  header nav {
+    background-color: cornflowerblue; }
+    header nav li {
+      display: inline-block; }
+      header nav li a {
+        text-decoration: none;
+        color: crimson;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1, 5rem; }
+        header nav li a:hover {
+          background-color: chartreuse; }
